@@ -8,6 +8,6 @@ public class HelloWorld {
 
     @GetMapping(path = "/getMessage")
     public String findMessage(){
-        return "Hello World!";
+        return "Hello World from git public repository!";
     }
 }
